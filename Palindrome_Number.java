@@ -9,6 +9,7 @@ public class Palindrome_Number {
         int n =sc.nextInt();
         boolean ans = check_Palindrome(n);
         System.out.println(ans);
+        sc.close();
     }
     public static boolean check_Palindrome(int num){
         int x = num;

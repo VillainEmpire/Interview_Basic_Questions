@@ -9,6 +9,7 @@ public class Prime_Number {
         int n = sc.nextInt();
         int total = check_prime(n);
         System.out.println(total);
+        sc.close();
 
     }
     public static int check_prime(int n){

@@ -11,5 +11,6 @@ public class Fibbonacci_Series_using_recurrsion {
         int n = sc.nextInt();
         int ans = check_fibbonacci( n);
         System.out.println(ans);
+        sc.close();
     }
 }
