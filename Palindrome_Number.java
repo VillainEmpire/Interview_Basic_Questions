@@ -1,5 +1,8 @@
 import java.util.*;
 
+// Question :- Check whether a number is Palindrome or not 
+
+// Approach :- We will reverse the number and then check our original number with our reversed number.
 public class Palindrome_Number {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
